@@ -1,29 +1,17 @@
 # vue-search-places
 
-## Project setup
+## Project description
+
 ```
-npm install
+With this project you can search for certain locations using autocomplete and some interesting places nearby depending on category of interest and radius around location.
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Technologies used in project development
 
-### Compiles and minifies for production
 ```
-npm run build
+This is the training project.
+It was implemented with:
++ Vue
++ Vuetify
++ HERE map API
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

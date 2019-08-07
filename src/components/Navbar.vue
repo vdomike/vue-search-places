@@ -64,9 +64,12 @@ export default {
         matchLevel: 'houseNumber'
       }
       axios
-        .get('http://autocomplete.geocoder.cit.api.here.com/6.2/suggest.json', {
-          params: data
-        })
+        .get(
+          'https://autocomplete.geocoder.cit.api.here.com/6.2/suggest.json',
+          {
+            params: data
+          }
+        )
         .then((response) => {
           if (response.data.suggestions) {
             this.suggestions = response.data.suggestions
@@ -85,7 +88,7 @@ export default {
         locationId: address.locationId
       }
       axios
-        .get('http://geocoder.api.here.com/6.2/geocode.json', {
+        .get('https://geocoder.api.here.com/6.2/geocode.json', {
           params: data
         })
         .then((response) => {
